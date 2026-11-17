@@ -1,229 +1,122 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Massively by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oded Tsfati – Data Analyst & AI/ML Engineer</title>
+<meta name="description" content="Oded Tsfati – Data Analyst moving into AI & Machine Learning Engineering, based in Berlin. Python, SQL, pandas, scikit-learn, Tableau.">
+<style>
+  :root{--ink:#14213d;--muted:#5c6577;--line:#e3e6ec;--bg:#fafbfc;--accent:#2a6f97;--accent-soft:#e8f1f7}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+  header{padding:80px 0 48px;border-bottom:1px solid var(--line);background:#fff}
+  .kicker{font-size:.85rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  h1{font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.15;margin:.4rem 0 1rem;letter-spacing:-.02em}
+  .lead{font-size:1.15rem;color:var(--muted);max-width:640px}
+  .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+  .btn{display:inline-block;padding:10px 18px;border-radius:8px;border:1px solid var(--accent);font-weight:600;font-size:.95rem}
+  .btn.primary{background:var(--accent);color:#fff}
+  .btn:hover{text-decoration:none;opacity:.9}
+  section{padding:56px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:1.4rem;margin-bottom:24px;letter-spacing:-.01em}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:18px}
+  @media (max-width:760px){.grid{grid-template-columns:1fr}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column}
+  .card h3{font-size:1.05rem;margin-bottom:8px}
+  .card p{color:var(--muted);font-size:.95rem;flex:1}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .tag{background:var(--accent-soft);color:var(--accent);font-size:.78rem;padding:3px 9px;border-radius:999px;font-weight:600}
+  .card a.more{margin-top:14px;font-weight:600;font-size:.92rem}
+  .timeline{list-style:none}
+  .timeline li{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+  .timeline li:first-child{border-top:none}
+  .when{color:var(--muted);font-size:.92rem}
+  .role{font-weight:600} .org{color:var(--muted);font-size:.95rem}
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+  .skills h3{font-size:.95rem;margin-bottom:6px}
+  .skills p{color:var(--muted);font-size:.95rem}
+  footer{padding:40px 0 60px;color:var(--muted);font-size:.9rem}
+  @media (max-width:560px){.timeline li{grid-template-columns:1fr;gap:2px}}
+</style>
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<header>
+  <div class="wrap">
+    <div class="kicker">Berlin, Germany</div>
+    <h1>Oded Tsfati</h1>
+    <p class="lead">Data Analyst moving into <strong>AI &amp; Machine Learning Engineering</strong>. 15+ years of turning pricing, finance and operations data into decisions – now building predictive models with Python.</p>
+    <div class="links">
+      <a class="btn primary" href="https://www.linkedin.com/in/oded-tsfati/">LinkedIn</a>
+      <a class="btn" href="https://github.com/oded-tsfati">GitHub</a>
+      <a class="btn" href="mailto:oded.ts@gmail.com">Email</a>
+    </div>
+  </div>
+</header>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>This is<br />
-						Massively ODED Tsfati</h1>
-						<p>A free, fully responsive HTML5 + CSS3 site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a><br />
-						and released for free under the <a href="https://html5up.net/license">Creative Commons license</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+<main>
+  <section>
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Bike Rental Demand – Machine Learning</h3>
+          <p>Predicting daily bike rentals from season, weather and calendar features with linear regression, logistic regression and decision trees.</p>
+          <div class="tags"><span class="tag">scikit-learn</span><span class="tag">pandas</span><span class="tag">ML</span></div>
+          <a class="more" href="https://github.com/oded-tsfati/ML">View project →</a>
+        </div>
+        <div class="card">
+          <h3>Crime in Los Angeles</h3>
+          <p>Per-capita crime rates by LAPD division, monthly trends, victim profiles, time-of-day patterns and an interactive incident map.</p>
+          <div class="tags"><span class="tag">pandas</span><span class="tag">Seaborn</span><span class="tag">Folium</span></div>
+          <a class="more" href="https://github.com/oded-tsfati/Crimes_In_L.A.">View project →</a>
+        </div>
+        <div class="card">
+          <h3>Formula 1 – 70 Years of Data</h3>
+          <p>Top drivers and constructors, does grid position predict the result, and lap-by-lap position charts for any race.</p>
+          <div class="tags"><span class="tag">pandas</span><span class="tag">Matplotlib</span><span class="tag">EDA</span></div>
+          <a class="more" href="https://github.com/oded-tsfati/Formula1">View project →</a>
+        </div>
+        <div class="card">
+          <h3>SQL – Video Game Sales</h3>
+          <p>Business questions answered in T-SQL: window functions, CTEs, weighted averages, data scaffolding and year-over-year growth.</p>
+          <div class="tags"><span class="tag">SQL Server</span><span class="tag">T-SQL</span></div>
+          <a class="more" href="https://github.com/oded-tsfati/Sql_code">View project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Massively</a>
-					</header>
+  <section>
+    <div class="wrap">
+      <h2>Experience</h2>
+      <ul class="timeline">
+        <li><div class="when">2026 –</div><div><div class="role">AI &amp; Machine Learning Engineering</div><div class="org">Upskilling: Python, machine learning, deep learning, LLM applications</div></div></li>
+        <li><div class="when">2023 – 2026</div><div><div class="role">Trust &amp; Safety Specialist</div><div class="org">TP Digital Services, Berlin · investigations, policy enforcement, quality KPIs</div></div></li>
+        <li><div class="when">2015 – 2023</div><div><div class="role">Data Analyst</div><div class="org">Flex, Israel · price lists &amp; anomaly detection, Tableau dashboards, ERP migration, pricing strategy (+10% profitability)</div></div></li>
+        <li><div class="when">2008 – 2015</div><div><div class="role">Pricing Analyst · Business Analyst</div><div class="org">Flex, Israel · costing analysis, strategic-client financials (+15% revenue)</div></div></li>
+      </ul>
+    </div>
+  </section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+  <section>
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div><h3>Programming &amp; ML</h3><p>Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter, Google Colab</p></div>
+        <div><h3>Data &amp; BI</h3><p>SQL Server (window functions, CTEs), Oracle, Impala, Tableau, Excel</p></div>
+        <div><h3>Analytics</h3><p>Finance &amp; pricing KPIs, time-series analysis, anomaly detection, dashboards, regression &amp; classification</p></div>
+        <div><h3>Languages</h3><p>Hebrew (native), English (fluent), German (learning)</p></div>
+      </div>
+    </div>
+  </section>
+</main>
 
-				<!-- Main -->
-					<div id="main">
+<footer>
+  <div class="wrap">© Oded Tsfati · Berlin</div>
+</footer>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">April 25, 2017</span>
-									<h2><a href="#">And this is a<br />
-									massive headline</a></h2>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
-
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<span class="date">April 24, 2017</span>
-										<h2><a href="#">Sed magna<br />
-										ipsum faucibus</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 22, 2017</span>
-										<h2><a href="#">Primis eget<br />
-										imperdiet lorem</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 11, 2017</span>
-										<h2><a href="#">Odio magna<br />
-										sed consectetur</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 7, 2017</span>
-										<h2><a href="#">Augue lorem<br />
-										primis vestibulum</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a>
-								</div>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
